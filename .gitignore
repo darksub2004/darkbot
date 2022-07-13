@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# IDE
+.vs/
+.idea/
+*.iml
+
+# Build Folders
+*build/
+*dist/
+*prod/
+
+# Optional REPL history
+.node_repl_history
+
+# Repl.it
+.config/
+*replit*
+
+# Config
+configs.json
+config.ts
+
+# Heap and Logs
+*.heapsnapshot
+*.log
+
+# Environments
+.env.local
+.env.*.local
+.DS_Store
+
+# Other
+*.tsbuildinfo
+*data/
