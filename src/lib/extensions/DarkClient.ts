@@ -3,11 +3,7 @@ import { SapphireClient, RegisterBehavior, ApplicationCommandRegistries, LogLeve
 export class DarkClient extends SapphireClient {
 	public constructor() {
 		super({
-			intents: [
-				'GUILDS',
-				'GUILD_EMOJIS_AND_STICKERS',
-				'GUILD_INTEGRATIONS'
-			],
+			intents: ['GUILDS', 'GUILD_EMOJIS_AND_STICKERS', 'GUILD_INTEGRATIONS'],
 			partials: ['CHANNEL'],
 			allowedMentions: {
 				users: [],
