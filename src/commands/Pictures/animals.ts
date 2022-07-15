@@ -38,7 +38,7 @@ export class AnimalCommand extends DarkCommand {
 					.addSubcommand((option) => option.setName('cat').setDescription('Cat Image'))
 					.addSubcommand((option) => option.setName('dog').setDescription('Dog Image')),
 			{
-				idHints: [],
+				idHints: ['997016114594852885'],
 				guildIds: getGuildIds()
 			}
 		);
