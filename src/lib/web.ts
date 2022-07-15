@@ -6,7 +6,7 @@ const app = Fastify({
 });
 
 app.get('/', async (_req, reply) => {
-	await reply.type('application/json').code(200);
+	reply.type('application/json').code(200);
 	return 'Alive';
 });
 
